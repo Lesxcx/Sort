@@ -41,4 +41,9 @@ public class Main {
         if (n==0) return 1;
         return silnia(n-1)*n;
     }
+
+    private static long fibo(int n) {
+        if (n==1 || n==2) return 1;
+        return fibo(n-2)+fibo(n-1);
+    }
 }
